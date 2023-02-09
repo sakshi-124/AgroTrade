@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Farmer.ExpenseManager">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/headingExpense"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textcolor"/>
+
+    <TextView
+        android:id="@+id/textViewDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expDate"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expHintDate"
+        android:drawableRight="@drawable/datepicker"
+        android:padding="10dp"
+        android:focusable="false"
+        android:backgroundTint="@color/editline"/>
+
+    <TextView
+        android:id="@+id/textViewFerti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expFerti"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/f_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expEditHint"
+        android:inputType="number"
+        android:drawableRight="@drawable/rupee"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+
+    <TextView
+        android:id="@+id/textViewPesti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expPesti"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/p_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expEditHint"
+        android:inputType="number"
+        android:drawableRight="@drawable/rupee"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+
+
+    <TextView
+        android:id="@+id/textViewHalf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expHalfDay"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/half_no_worker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expNoWorker"
+        android:inputType="number"
+        android:drawableRight="@drawable/user"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+    <EditText
+        android:id="@+id/half_sal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expSal"
+        android:inputType="number"
+        android:drawableRight="@drawable/rupee"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+
+    <TextView
+        android:id="@+id/textViewFull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expFullDay"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/full_no_worker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expNoWorker"
+        android:inputType="number"
+        android:drawableRight="@drawable/user"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+    <EditText
+        android:id="@+id/full_sal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expSal"
+        android:inputType="number"
+        android:drawableRight="@drawable/rupee"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+
+    <TextView
+        android:id="@+id/textViewExtra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expExtra"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/extra_cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expEditHint"
+        android:inputType="number"
+        android:drawableRight="@drawable/rupee"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+
+    <TextView
+        android:id="@+id/textNote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expNote"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/extra_note"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/extra_note"
+        android:hint="@string/expNote"
+        android:lines="4"/>
+
+    <TextView
+        android:id="@+id/textViewIncome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/expTotal"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/total_income"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/expEditHint"
+        android:inputType="number"
+        android:drawableRight="@drawable/rupee"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"/>
+
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:width="120dp"
+            android:background="@drawable/btndraw"
+            android:text="ADD/SAVE"
+            android:textColor="@color/btntext"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="20dp"/>
+
+            <Button
+                android:id="@+id/report"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:width="120dp"
+                android:background="@drawable/btndraw"
+                android:text="GENERATE REPORT"
+                android:textColor="@color/btntext"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>

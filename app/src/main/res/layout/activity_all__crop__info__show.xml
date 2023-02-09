@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".All_Crop_Info_Show">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:src="@drawable/agro"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="@color/textcolor"
+            android:paddingBottom="@dimen/_5sdp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/season"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/season"
+        android:textSize="18sp"
+        android:text="@string/tomato_season"
+        android:textColor="@color/infotext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/irrigation"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+    <TextView
+        android:id="@+id/irrigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tomato_irrigation"
+        android:textColor="@color/infotext"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/varieties"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/varieties"
+        android:textSize="18sp"
+        android:text="@string/tomato_varieties"
+        android:textColor="@color/infotext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soil_type"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soil_type"
+        android:textSize="18sp"
+        android:text="@string/tomato_soil_type"
+        android:textColor="@color/infotext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plant_material"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/plant_material"
+        android:textSize="18sp"
+        android:text="@string/tomato_plant_material"
+        android:textColor="@color/infotext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spacing"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spacing"
+        android:textSize="18sp"
+        android:text="@string/tomato_spacing"
+        android:textColor="@color/infotext"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Harvesting:"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/textcolor"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/harvesting"
+        android:textSize="18sp"
+        android:text="@string/tomato_postharvest"
+        android:textColor="@color/infotext"/>
+
+    </LinearLayout>
+</ScrollView>

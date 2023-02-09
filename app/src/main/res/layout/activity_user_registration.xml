@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context=".User.User_registration"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration"
+        android:layout_gravity="center"
+        android:textSize="50sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/textcolor"
+        android:padding="20dp"/>
+
+    <TextView
+        android:id="@+id/textusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/textuname"
+        android:textSize="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/uuname"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"
+        android:drawableRight="@drawable/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edituname"/>
+
+    <TextView
+        android:id="@+id/textadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/textadd"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/uadd"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/home_png"
+        android:hint="@string/editadd"
+        android:lines="4"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textmob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/textmob"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/umob"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"
+        android:drawableRight="@drawable/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editmob"/>
+
+    <TextView
+        android:id="@+id/textpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/textpass"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/upass"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"
+        android:drawableRight="@drawable/key"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editpass"
+        android:inputType="textPassword"
+        />
+    <TextView
+        android:id="@+id/textcpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textcolor"
+        android:text="@string/textcpass"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/ucpass"
+        android:padding="10dp"
+        android:backgroundTint="@color/editline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/editcpass"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/lock"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+        android:id="@+id/ureg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:width="120dp"
+        android:background="@drawable/btndraw"
+        android:text="@string/regbtn"
+        android:textColor="@color/btntext"
+        android:layout_marginBottom="50dp"
+        android:textSize="20dp"/>
+</LinearLayout>
+
+</ScrollView>

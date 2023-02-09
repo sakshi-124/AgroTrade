@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/homeblack"
+            android:title="Home" />
+        <item
+            android:id="@+id/crop"
+            android:icon="@drawable/crop"
+            android:title="Buy Crop" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/categoy"
+            android:title="Search Crop Information" />
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/personblack"
+            android:title="Account" />
+        <item
+            android:id="@+id/Cart"
+            android:icon="@drawable/shoppingcart"
+            android:title="Cart" />
+        <item
+            android:id="@+id/Orders"
+            android:icon="@drawable/openbox"
+            android:title="Orders" />
+
+
+    </group>
+</menu>

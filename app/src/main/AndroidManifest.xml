@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.agrotrade">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_laucher_logooo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_laucher_logooo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Farmer.AllSingleExpensesActivity"/>
+        <activity android:name=".Farmer.All_Received_OrderShow_Farmer_Activity" />
+        <activity android:name=".Farmer.All_OrderShow_Farmer_Activity" />
+        <activity
+            android:name=".Farmer.FinalPayment"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name=".User.All_OrdersShow_Activity" />
+        <activity android:name=".Payment_Option_Activity" />
+        <activity android:name=".User.Change_OrderDeliveryAddress_User_Activity" />
+        <activity android:name=".Farmer.Change_OrderDeliveryAddress_Farmer_Activity" />
+        <activity android:name=".PlaceOrder_Activity" />
+        <activity android:name=".Farmer.Farmer_PlaceOrder_Activity" />
+        <activity android:name=".User.User_PlaceOrder_Activity" />
+        <activity android:name=".User.FinalAddressActivity" />
+        <activity android:name=".FertiPesti_DetailShow_Activity" />
+        <activity android:name=".All_FertiPesti_Buying" />
+        <activity android:name=".Product_DetailShow_Activity" />
+        <activity android:name=".User.All_Crop_Buying_List" />
+        <activity android:name=".Farmer.All_Crop_Selling" />
+        <activity android:name=".Farmer.Crop_Selling_Form" />
+        <activity android:name=".Farmer.Crop_Details_Update_Form" />
+        <activity android:name=".Farmer.AllMasterExpensesActivity" />
+        <activity android:name=".All_Crop_Info_Show" />
+        <activity android:name=".DeleteProductActivity" />
+        <activity
+            android:name=".All_Categories"
+            android:label="Categories!" />
+        <activity android:name=".All_Crop_Info" />
+        <activity android:name=".Model.Crop_Info" />
+        <activity android:name=".Farmer.ExpenseManager" />
+        <activity android:name=".MaintainenceActivity" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Farmer.HomeActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".User.HomeActivity_User"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".User.User_OtpVerify" />
+        <activity android:name=".Farmer.Farmer_OtpVerify" />
+        <activity android:name=".Farmer.Farmer_login" />
+        <activity
+            android:name=".select_user_type"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Farmer.Farmer_registration"
+            android:label="Farmer Registration!"
+            android:parentActivityName=".Farmer.Farmer_login" />
+        <activity
+            android:name=".User.User_registration"
+            android:label="Customer Registation"
+            android:parentActivityName=".User.User_login" />
+        <activity android:name=".User.User_login" />
+        <activity android:name=".User.ShoppingCart.ProductCartActivity" />
+        <activity android:name=".Farmer.ShoppingCart.Farmer_ProductCartActivity" />
+    </application>
+
+</manifest>

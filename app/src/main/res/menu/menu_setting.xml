@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/cart"
+        android:orderInCategory="100"
+        android:title="Cart"
+        android:icon="@drawable/cart"
+
+
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/contact"
+        android:orderInCategory="100"
+        android:title="Cotact us"
+        app:showAsAction="collapseActionView"/>
+    <item
+        android:orderInCategory="100"
+        android:id="@+id/about"
+        android:title="About Us"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/Logout"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Logout"/>
+</menu>

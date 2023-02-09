@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Farmer.Crop_Selling_Form">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/_20sdp"
+        android:orientation="vertical">
+
+        <!--  <ImageView
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/> -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/category"
+            android:textColor="@color/textcolor"
+            android:textSize="18dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <Spinner
+            android:id="@+id/cat_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Select Category"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Image"
+            android:textSize="18dp"
+
+            android:textColor="@color/textcolor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <Button
+            android:padding="10dp"
+            android:lines="1"
+            android:id="@+id/selectimg"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Click Me to Select Image"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/img"
+            android:visibility="gone"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/crop_name"
+            android:textSize="18dp"
+
+            android:textColor="@color/textcolor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/crop_name"
+            android:padding="10dp"
+            android:lines="1"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:backgroundTint="@color/editline"
+            android:drawableRight="@drawable/crop_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editcname"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qty"
+            android:textSize="18dp"
+            android:textColor="@color/textcolor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/qty"
+            android:padding="10dp"
+            android:backgroundTint="@color/editline"
+            android:drawableRight="@drawable/qty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editqty"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textSize="18dp"
+            android:textColor="@color/textcolor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/price"
+            android:padding="10dp"
+            android:backgroundTint="@color/editline"
+            android:drawableRight="@drawable/rupee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/editprice"/>
+        <Button
+            android:padding="10dp"
+            android:lines="1"
+            android:id="@+id/open"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="MyWeb"
+            android:hint="Click Me to Check Mandi Price"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desc"
+            android:textSize="18dp"
+            android:textColor="@color/textcolor"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:id="@+id/description"
+            android:padding="10dp"
+            android:backgroundTint="@color/editline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/extra_note"
+            android:hint="@string/editdesc"
+            android:lines="4"
+            />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:width="120dp"
+            android:background="@drawable/btndraw"
+            android:text="ADD"
+            android:textColor="@color/btntext"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="20dp" />
+
+<!--        <Button-->
+<!--            android:id="@+id/openweb"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:width="120dp"-->
+<!--            android:background="@drawable/btndraw"-->
+<!--            android:text="open"-->
+<!--            android:onClick="MyWeb"-->
+<!--            android:textColor="@color/btntext"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="20dp"/>-->
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

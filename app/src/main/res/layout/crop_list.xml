@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/_3sdp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/cardView"
+        app:cardElevation="1dp"
+        app:cardCornerRadius="10dp"
+        android:layout_gravity="center"
+        app:cardUseCompatPadding="true">
+
+       <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"> -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageViewCrop"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/agro"/>
+
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_below="@+id/imageViewCrop"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/cardview_dark_background"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/_19sdp"
+                android:text="@string/tomato" />
+            <!--
+                        <TextView
+                            android:id="@+id/textViewAddress"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="100px"
+                            android:text="@string/tomato" />
+                        <TextView
+                            android:id="@+id/textViewmob"
+                            android:textAlignment="center"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/cardview_dark_background"
+                            android:textSize="100px"
+                            android:visibility="invisible"
+                            android:text="@string/tomato" />
+                            -->
+            <TextView
+                android:id="@+id/textViewSeason"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomato_season"
+                android:textSize="100px"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/infotext"/>
+            <TextView
+                android:id="@+id/textViewIrrigation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomato_irrigation"
+                android:textSize="100px"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/infotext"/>
+            <TextView
+                android:id="@+id/textViewVarieties"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomato_varieties"
+                android:textSize="100px"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/infotext"/>
+            <TextView
+                android:id="@+id/textViewSoilType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomato_soil_type"
+                android:textSize="100px"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/infotext"/>
+            <TextView
+                android:id="@+id/textViewPlantMaterial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomato_plant_material"
+                android:textSize="100px"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/infotext"/>
+            <TextView
+                android:id="@+id/textViewSpacing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomato_spacing"
+                android:textSize="100px"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/infotext"/>
+            <TextView
+                android:id="@+id/textViewHarvest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tomato_postharvest"
+                android:textSize="100px"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:textColor="@color/infotext"/>
+
+            </RelativeLayout>
+      <!--  </LinearLayout> -->
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#F83829</color>
+
+
+        <color name="textcolor">#53742D</color>
+    <color name="editline">#8BC34A</color>
+    <color name="btntext">#FAFCF7</color>
+    <color name="signin">#4B8604</color>
+    <color name="btext">#CBF8F6F6</color>
+    <color name="shadow">#7F8807</color>
+    <color name="shadow2">#8BC34A</color>
+    <color name="infotext">#689131</color>
+    <color name="cardback">#B2EE84</color>
+    <color name="ferticardback">#D4F0CB</color>
+    <color name="divide">#AEBB51</color>
+    <color name="cardplaceback">#E5FAE5</color>
+</resources>

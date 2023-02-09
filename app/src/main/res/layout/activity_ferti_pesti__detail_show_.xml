@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FertiPesti_DetailShow_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_400sdp"
+            android:src="@drawable/agro"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tomato"
+            android:textColor="@color/textcolor"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold" />
+        <View style="@style/Divider"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_3sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity :"
+                android:textSize="@dimen/_12sdp"
+                />
+
+            <TextView
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="100"
+                android:textColor="@color/infotext"
+                android:textSize="@dimen/_14sdp" />
+            <TextView
+                android:id="@+id/unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_5sdp"
+                android:text="ml/kg/gm"
+                android:textColor="@color/infotext"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_3sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price :"
+                android:textSize="@dimen/_12sdp"/>
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10000"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/infotext"
+                android:paddingLeft="@dimen/_5sdp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs."
+                android:textColor="@color/infotext"
+                android:paddingLeft="@dimen/_3sdp"/>
+        </LinearLayout>
+        <View style="@style/Divider"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_3sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pro_info"
+                android:textSize="@dimen/_12sdp"/>
+            <TextView
+                android:id="@+id/pro_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It's an organic fertipesti."
+                android:textColor="@color/infotext"
+                android:textSize="@dimen/_14sdp"/>
+        </LinearLayout>
+        <View style="@style/Divider"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_3sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/desc"
+                android:textSize="@dimen/_12sdp"/>
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description for ferti pesti"
+                android:textSize="@dimen/_14sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/infotext"/>
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_3sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crops_used"
+                android:textSize="@dimen/_12sdp"/>
+            <TextView
+                android:id="@+id/crop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="For which crop for ferti pesti"
+                android:textSize="@dimen/_14sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/infotext"/>
+        </LinearLayout>
+
+        <View style="@style/Divider"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_3sdp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pest_used"
+                android:textSize="@dimen/_12sdp"/>
+            <TextView
+                android:id="@+id/pest_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Description for ferti pesti"
+                android:textSize="@dimen/_14sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:textColor="@color/infotext"/>
+
+            <View style="@style/Divider"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/_3sdp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/direction"
+                    android:textSize="@dimen/_12sdp"/>
+                <TextView
+                    android:id="@+id/direction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Directions for ferti pesti"
+                    android:textSize="@dimen/_14sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:textColor="@color/infotext"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:id="@+id/add_to_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:text="ADD TO CART"
+            android:textSize="20dp"
+            android:textColor="@color/btext"
+            android:background="@drawable/btndraw"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

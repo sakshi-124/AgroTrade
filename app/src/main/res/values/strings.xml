@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">AgroTrade</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+    <string name="textuname">User Name</string>
+    <string name="textpass">Password</string>
+    <string name="textcpass">Confirm Password</string>
+    <string name="textadd">Address</string>
+    <string name="textmob">Mobile Number</string>
+    <string name="edituname">Enter user name</string>
+    <string name="editunamee">Enter Mobile No</string>
+    <string name="editpass">Enter password</string>
+    <string name="editcpass">Enter Confirm password</string>
+    <string name="editadd">Enter address</string>
+    <string name="editmob">Enter mobile number</string>
+    <string name="regbtn">REGISTER</string>
+    <string name="logbtn">Log-in</string>
+
+
+    <string name="nameerror">Enter a valid Username</string>
+    <string name="passerror">The password must be at least 8 characters long and include a number, lowercase letter, uppercase letter. </string>
+    <string name="address">Enter a valid Address</string>
+    <string name="moberror">Enter a Valid  Mobile No</string>
+    <string name="ageerror">Enter a valid age</string>
+
+
+    <string name="terror">Enter valid town name</string>
+    <string name="serror">Enter valid state name</string>
+    <string name="cerror">Enter valid city name</string>
+    <string name="aerror">Enter valid addresss</string>
+    <string name="perror">Enter valid pincode</string>
+
+    <string name="experror">Enter at least 0</string>
+
+    <string name="fruit">Fruit</string>
+    <string name="Detail">Product Details</string>
+    <string name="desc">Description:</string>
+    <string name="season">Season for planting:</string>
+    <string name="irrigation">Irrigation Details:</string>
+    <string name="varieties">Varieties:</string>
+    <string name="soil_type">Soli Type:</string>
+    <string name="plant_material">Plant Material:</string>
+    <string name="spacing">Spacing:</string>
+    <string name="postharvest">Post Harvest Treatment:</string>
+
+    <string name="tomato">Tomato</string>
+    <string name="tomato_desc">Tomato Description</string>
+    <string name="tomato_season">Tomato Season</string>
+    <string name="tomato_irrigation">Tomato Irrigation</string>
+    <string name="tomato_varieties">Tomato Varieties</string>
+    <string name="tomato_soil_type">Tomato Soli Type</string>
+    <string name="tomato_plant_material">Tomato Plant Material</string>
+    <string name="tomato_spacing">Tomato Spacing</string>
+    <string name="tomato_postharvest">Tomato Post Harvest</string>
+
+    <string name="headingExpense">Expense Detail</string>
+    <string name="expDate">Date</string>
+    <string name="expHintDate">Enter Date</string>
+    <string name="expFerti">Expense of fertilizer</string>
+    <string name="expPesti">Expense of pesticide</string>
+    <string name="expHalfDay">Half Day Expense</string>
+    <string name="expFullDay">Full Day Expense</string>
+    <string name="expNoWorker">No. of Worker</string>
+    <string name="expSal">Salary per Day</string>
+    <string name="expExtra">Additional Costs</string>
+    <string name="expNote">Note for Expense</string>
+    <string name="expTotal">Total Income</string>
+    <string name="expEditHint">Amount in Rs.</string>
+
+
+    <string name="mDate">Last Modified Date</string>
+    <string name="mFerti">Total Expense of fertilizer</string>
+    <string name="mPesti">Total Expense of pesticide</string>
+    <string name="mHalfDay">Total Halfday worker Expense</string>
+    <string name="mFullDay">Total Fullday worker Expense</string>
+    <string name="mfullno">Total No. of fullday Worker</string>
+    <string name="mhalfno">Total No. of halfday worker</string>
+    <string name="mexpSal">Total Salary per Day</string>
+    <string name="mExtra">Total Extra Costs</string>
+    <string name="mTotal">Overall Total Income</string>
+
+
+    <string name="sDate">Expense Added on Date</string>
+    <string name="sFerti">Expense of fertilizer</string>
+    <string name="sPesti"> Expense of pesticide</string>
+    <string name="sHalfDay">Half Day Expense</string>
+    <string name="sFullDay">Full Day Expense</string>
+    <string name="sfullno">No. of fullday Worker</string>
+    <string name="shalfno">No. of halfday worker</string>
+    <string name="sexphalfSal">Halfday worker Salary per Day</string>
+    <string name="sexpfullSal">Fullday worker Salary per Day</string>
+    <string name="sExtra">Extra Costs</string>
+    <string name="sTotal">Total Income</string>
+
+    <string name="expferti">Expense of fertilizer:</string>
+    <string name="exppesti">Expense of pesticide:</string>
+    <string name="exphalfDay">Half Day Expense:</string>
+    <string name="expfullDay">Full Day Expense:</string>
+    <string name="expnoWorker">No. of Worker:</string>
+    <string name="expsal">Salary per Day:</string>
+    <string name="expextra">Additional Costs:</string>
+    <string name="expnote">Note for Expense:</string>
+    <string name="exptotal">Total Income:</string>
+
+    <string name="category">Select Category</string>
+    <string name="crop_name">Crop Name</string>
+    <string name="editcname">Enter Crop Name</string>
+    <string name="qty">Quantity (kg)</string>
+    <string name="editqty">Enter qty</string>
+    <string name="price">Price/kg</string>
+    <string name="editprice">Enter Price/kg</string>
+    <string name="Desc">Description</string>
+    <string name="editdesc">Enter Description</string>
+
+    <string name="editcroperr">Enter Valid Crop Name</string>
+    <string name="editqtyerr">Enter Valid Qty</string>
+    <string name="editpriceerr">Enter Valid Price</string>
+
+
+    <string name="weight">Weight in ml/l/kg</string>
+    <string name="pro_info">Product Information</string>
+    <string name="crops_used">For which crops to be used ?</string>
+    <string name="pest_used">On which pest to be used ?</string>
+    <string name="direction">How to use ?</string>
+
+    <string name="order_detail">Order Total:</string>
+    <string name="delivery_charges">Delivery Charges:</string>
+    <string name="total">Total:</string>
+
+</resources>

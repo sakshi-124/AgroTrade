@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="5dp"
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:weightSum="5">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/agro"
+            android:layout_weight="0"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_weight="3"
+            android:layout_gravity="center"
+           >
+
+            <TextView
+                android:id="@+id/crop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/tomato"
+                android:textColor="@color/textcolor"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qty:"
+                    android:paddingRight="5dp"
+                    android:textColor="@color/infotext"/>
+
+                <TextView
+                    android:id="@+id/qty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4"
+                    android:textColor="@color/textcolor"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Price/Kg"
+                    android:paddingRight="5dp"
+                    android:textColor="@color/infotext"/>
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:textColor="@color/textcolor"/>
+
+                <TextView
+                    android:id="@+id/product_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+
+                <Button
+                    android:id="@+id/manage_expense"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Add Expense"/>
+
+
+<!--                <Button-->
+<!--                    android:id="@+id/edit"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Edit"-->
+<!--                    android:drawableLeft="@drawable/pencil"-->
+<!--                    android:layout_marginRight="10dp"-->
+<!--                    android:background="#8BC34A"-->
+<!--                    android:gravity="center"/>-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/remove"-->
+<!--                    android:layout_width="108dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:background="#F83829"-->
+<!--                    android:drawableLeft="@drawable/remove"-->
+<!--                    android:gravity="center"-->
+<!--                    android:paddingRight="2dp"-->
+<!--                    android:text="Remove" />-->
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/edit_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/edit" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/add_expense"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:contentDescription="@string/app_name"-->
+<!--                android:src="@drawable/expense_farmer" />-->
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+            <ImageButton
+                android:id="@+id/delete_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/remove" />
+        </LinearLayout>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

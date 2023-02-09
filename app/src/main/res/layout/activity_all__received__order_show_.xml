@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Farmer.All_Received_OrderShow_Farmer_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/txt2"
+        android:textColor="@color/textcolor"
+        android:layout_gravity="center_horizontal|center"
+        android:textSize="@dimen/_12sdp"
+        android:text=" There are no recent orders to show. \nYou haven't received any order yet." />
+
+
+    <ListView
+        android:id="@+id/order_received_list_farmer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:paddingBottom="@dimen/_10sdp"
+        android:scrollbars="none" />
+
+</FrameLayout>

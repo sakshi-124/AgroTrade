@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".select_user_type">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="140dp"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/welcome"
+                android:textColor="@color/signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome"
+                android:layout_gravity="center"
+                android:textSize="50dp"
+                android:padding="20dp"
+                android:shadowColor="@color/shadow"
+                android:shadowDx="3"
+                android:shadowDy="5"
+                android:shadowRadius="1.5"
+                />
+            <TextView
+                android:id="@+id/regas"
+                android:textColor="@color/signin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wants to Continue as"
+                android:textSize="30dp"
+                android:padding="20dp"
+                android:shadowColor="@color/shadow2"
+                android:shadowDx="3"
+                android:shadowDy="5"
+                android:shadowRadius="1.5"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal">
+            <RadioGroup
+                android:id="@+id/radgrp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@id/farmer">
+                <RadioButton
+                    android:id="@+id/farmer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Farmer"
+                    android:textColor="@color/signin"
+                    android:textSize="20dp"
+                    android:drawableRight="@drawable/farmer"
+                    android:padding="10dp"/>
+                <RadioButton
+                    android:id="@+id/cust"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Customer"
+                    android:textColor="@color/signin"
+                    android:textSize="20dp"
+                    android:drawableRight="@drawable/client"
+                    android:padding="10dp"/>
+            </RadioGroup>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:padding="20dp">
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="next"
+                android:textSize="20dp"
+                android:textColor="@color/btext"
+                android:background="@drawable/btndraw"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
